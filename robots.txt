@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://arya182-ui.github.io/EESVO/sitemap.xml
