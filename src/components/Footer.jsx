@@ -1,0 +1,39 @@
+import React from 'react';
+import { Github, Heart, Twitter } from 'lucide-react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-white border-t border-gray-200 py-8 mt-auto">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="text-gray-600 text-sm">
+          © {new Date().getFullYear()} Every Engineer Should Visit Once. All rights reserved.
+        </div>
+        
+        <div className="flex items-center gap-6">
+          <a 
+            href="#" 
+            className="text-gray-400 hover:text-gray-900 transition-colors"
+            aria-label="Twitter"
+          >
+            <Twitter size={20} />
+          </a>
+          <a 
+            href="https://github.com/arya182-ui/EESVO" 
+            className="text-gray-400 hover:text-gray-900 transition-colors"
+            aria-label="GitHub"
+          >
+            <Github size={20} />
+          </a>
+        </div>
+
+        <div className="flex items-center gap-1 text-sm text-gray-500">
+          <span>Made with</span>
+          <Heart size={16} className="fill-red-500 text-red-500" />
+          <span>for engineers</span>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
