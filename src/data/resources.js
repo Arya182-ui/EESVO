@@ -1138,4 +1138,1064 @@ export const resources = [{
     description: "A job search engine that aggregates listings from various sources.",
     url: "https://www.simplyhired.com/",
     category: "Jobs"
+}, {
+    title: "AngelList",
+    description: "Find startup jobs and discover new companies in the tech industry.",
+    url: "https://angel.co/jobs",
+    category: "Jobs"
+}, {
+    title: "Dice",
+    description: "Tech jobs for technology professionals.",
+    url: "https://www.dice.com/",
+    category: "Jobs"
+}, {
+    title: "Stack Overflow Jobs",
+    description: "Find developer jobs that match your skills and preferences.",
+    url: "https://stackoverflow.com/jobs",
+    category: "Jobs"
+}, {
+    title: "AngelList Talent",
+    description: "Connect with startups looking for talented engineers.",
+    url: "https://angel.co/talent",
+    category: "Jobs"
+}, {
+    title: "Toptal",
+    description: "Freelance platform for top software developers.",
+    url: "https://www.toptal.com/",
+    category: "Jobs"
+}, {
+    title: "Upwork",
+    description: "Find freelance work and build your career as a freelancer.",
+    url: "https://www.upwork.com/",
+    category: "Jobs"
+}, {
+    title: "Remote OK",
+    description: "Find remote jobs for developers and designers.",
+    url: "https://remoteok.io/",
+    category: "Jobs"
+}, {
+    title: "We Work Remotely",
+    description: "The largest remote work community in the world.",
+    url: "https://weworkremotely.com/",
+    category: "Jobs"
+}, {
+    title: "FlexJobs",
+    description: "Find flexible, remote, and freelance jobs.",
+    url: "https://www.flexjobs.com/",
+    category: "Jobs"
+}, {
+    title: "Builtin",
+    description: "Tech jobs at fast-growing companies.",
+    url: "https://builtin.com/",
+    category: "Jobs"
+}, {
+    title: "CyberSeek",
+    description: "Find cybersecurity jobs and understand career pathways.",
+    url: "https://www.cyberseek.org/",
+    category: "Jobs"
+}, {
+    title: "HackerOne",
+    description: "Bug bounty platform connecting hackers with organizations.",
+    url: "https://www.hackerone.com/",
+    category: "When you get stuck"
+}, {
+    title: "Bugcrowd",
+    description: "Crowdsourced cybersecurity platform for bug bounty hunting.",
+    url: "https://www.bugcrowd.com/",
+    category: "When you get stuck"
+}, {
+    title: "OWASP",
+    description: "Open Web Application Security Project - security community resources.",
+    url: "https://owasp.org/",
+    category: "When you get stuck"
+}, {
+    title: "Exploit Database",
+    description: "Archive of public exploits and corresponding vulnerable software.",
+    url: "https://www.exploit-db.com/",
+    category: "When you get stuck"
+}, {
+    title: "CVE Details",
+    description: "The ultimate security vulnerability datasource.",
+    url: "https://www.cvedetails.com/",
+    category: "When you get stuck"
+}, {
+    title: "Rapid7",
+    description: "Cybersecurity insights, research, and vulnerability data.",
+    url: "https://www.rapid7.com/",
+    category: "When you get stuck"
+}, {
+    title: "Krebs on Security",
+    description: "In-depth security news and investigation by Brian Krebs.",
+    url: "https://krebsonsecurity.com/",
+    category: "News"
+}, {
+    title: "Dark Reading",
+    description: "Cybersecurity news, analysis and research.",
+    url: "https://www.darkreading.com/",
+    category: "News"
+}, {
+    title: "The Hacker News",
+    description: "Trusted cybersecurity news and analysis platform.",
+    url: "https://thehackernews.com/",
+    category: "News"
+}, {
+    title: "Security Week",
+    description: "Information security news, insights and analysis.",
+    url: "https://www.securityweek.com/",
+    category: "News"
+}, {
+    title: "Bleeping Computer",
+    description: "Computer help and cybersecurity news platform.",
+    url: "https://www.bleepingcomputer.com/",
+    category: "News"
+}, {
+    title: "InfoSec Magazine",
+    description: "Information security magazine covering latest threats and trends.",
+    url: "https://www.infosecurity-magazine.com/",
+    category: "Magazines"
+}, {
+    title: "2600: The Hacker Quarterly",
+    description: "American publication about technology and computer security.",
+    url: "https://www.2600.com/",
+    category: "Magazines"
+}, {
+    title: "Phrack Magazine",
+    description: "Underground hacking magazine published since 1985.",
+    url: "http://phrack.org/",
+    category: "Magazines"
+}, {
+    title: "Linux Journal",
+    description: "The original magazine of the Linux community.",
+    url: "https://www.linuxjournal.com/",
+    category: "Magazines"
+}, {
+    title: "ACM Queue",
+    description: "A magazine for practicing software engineers.",
+    url: "https://queue.acm.org/",
+    category: "Magazines"
+}, {
+    title: "Dr. Dobb's Journal Archive",
+    description: "Archive of the famous programming magazine.",
+    url: "https://www.drdobbs.com/",
+    category: "Magazines"
+}, {
+    title: "TryHackMe",
+    description: "Learn cybersecurity through hands-on exercises and challenges.",
+    url: "https://tryhackme.com/",
+    category: "Coding practice"
+}, {
+    title: "Hack The Box",
+    description: "Online platform for testing and advancing your skills in penetration testing.",
+    url: "https://www.hackthebox.com/",
+    category: "Coding practice"
+}, {
+    title: "OverTheWire",
+    description: "Wargames and challenges to learn and practice security concepts.",
+    url: "https://overthewire.org/wargames/",
+    category: "Coding practice"
+}, {
+    title: "PicoCTF",
+    description: "Free computer security education program with challenges.",
+    url: "https://picoctf.org/",
+    category: "Coding practice"
+}, {
+    title: "Root Me",
+    description: "Platform for testing and improving knowledge in computer security.",
+    url: "https://www.root-me.org/",
+    category: "Coding practice"
+}, {
+    title: "VulnHub",
+    description: "Vulnerable by design VMs for learning penetration testing.",
+    url: "https://www.vulnhub.com/",
+    category: "Coding practice"
+}, {
+    title: "Pentester Lab",
+    description: "Learn web application penetration testing.",
+    url: "https://pentesterlab.com/",
+    category: "Coding practice"
+}, {
+    title: "CryptoZombies",
+    description: "Learn to code Ethereum DApps by building your own game.",
+    url: "https://cryptozombies.io/",
+    category: "Coding practice"
+}, {
+    title: "Ethernaut",
+    description: "Web3/Solidity based wargame for learning smart contract security.",
+    url: "https://ethernaut.openzeppelin.com/",
+    category: "Coding practice"
+}, {
+    title: "DeFi Pulse",
+    description: "Analytics and rankings of DeFi protocols.",
+    url: "https://defipulse.com/",
+    category: "Cryptocurrency"
+}, {
+    title: "CoinDesk",
+    description: "Leading news source for Bitcoin and digital asset information.",
+    url: "https://www.coindesk.com/",
+    category: "Cryptocurrency"
+}, {
+    title: "Cointelegraph",
+    description: "Latest Bitcoin and cryptocurrency news.",
+    url: "https://cointelegraph.com/",
+    category: "Cryptocurrency"
+}, {
+    title: "Ethereum.org",
+    description: "Official documentation and resources for Ethereum.",
+    url: "https://ethereum.org/",
+    category: "Cryptocurrency"
+}, {
+    title: "Bitcoin.org",
+    description: "Official Bitcoin information and documentation.",
+    url: "https://bitcoin.org/",
+    category: "Cryptocurrency"
+}, {
+    title: "Solidity Documentation",
+    description: "Official documentation for Solidity programming language.",
+    url: "https://docs.soliditylang.org/",
+    category: "Cryptocurrency"
+}, {
+    title: "Web3.js Documentation",
+    description: "Ethereum JavaScript API documentation.",
+    url: "https://web3js.readthedocs.io/",
+    category: "Cryptocurrency"
+}, {
+    title: "OpenSea",
+    description: "The largest NFT marketplace.",
+    url: "https://opensea.io/",
+    category: "Cryptocurrency"
+}, {
+    title: "DappRadar",
+    description: "Discover, track and trade decentralized applications.",
+    url: "https://dappradar.com/",
+    category: "Cryptocurrency"
+}, {
+    title: "Messari",
+    description: "Crypto research, data, and tools.",
+    url: "https://messari.io/",
+    category: "Cryptocurrency"
+}, {
+    title: "App Ideas Collection",
+    description: "A collection of application ideas to improve coding skills.",
+    url: "https://github.com/florinpop17/app-ideas",
+    category: "Project ideas"
+}, {
+    title: "Build Your Own X",
+    description: "Master programming by recreating popular technologies from scratch.",
+    url: "https://github.com/codecrafters-io/build-your-own-x",
+    category: "Project ideas"
+}, {
+    title: "Awesome Self-Hosted",
+    description: "A list of free software network services you can host yourself.",
+    url: "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    category: "Project ideas"
+}, {
+    title: "Mega Project List",
+    description: "A list of practical projects that anyone can solve in any programming language.",
+    url: "https://github.com/karan/Projects",
+    category: "Project ideas"
+}, {
+    title: "What to Code",
+    description: "Project ideas for developers looking for their next challenge.",
+    url: "https://what-to-code.com/",
+    category: "Project ideas"
+}, {
+    title: "Project-Based Learning",
+    description: "Curated list of project-based tutorials.",
+    url: "https://github.com/practical-tutorials/project-based-learning",
+    category: "Project ideas"
+}, {
+    title: "Frontend Mentor",
+    description: "Solve real-world HTML, CSS and JavaScript challenges.",
+    url: "https://www.frontendmentor.io/",
+    category: "Project ideas"
+}, {
+    title: "JavaScript 30",
+    description: "30 Day Vanilla JS Coding Challenge.",
+    url: "https://javascript30.com/",
+    category: "Project ideas"
+}, {
+    title: "100 Days of Code",
+    description: "Join the #100DaysOfCode challenge.",
+    url: "https://www.100daysofcode.com/",
+    category: "Project ideas"
+}, {
+    title: "DevChallenges",
+    description: "Real-life coding challenges to become a better developer.",
+    url: "https://devchallenges.io/",
+    category: "Project ideas"
+}, {
+    title: "Code Review Best Practices",
+    description: "A comprehensive guide to effective code reviews.",
+    url: "https://github.com/joho/awesome-code-review",
+    category: "Coding advice"
+}, {
+    title: "The Art of Readable Code",
+    description: "Simple and practical techniques for writing better code.",
+    url: "https://www.oreilly.com/library/view/the-art-of/9781449318482/",
+    category: "Coding advice"
+}, {
+    title: "Effective Engineer",
+    description: "How to leverage your efforts in software engineering to impact.",
+    url: "https://www.effectiveengineer.com/",
+    category: "Coding advice"
+}, {
+    title: "Software Engineering Daily",
+    description: "Daily podcast about technical software topics.",
+    url: "https://softwareengineeringdaily.com/",
+    category: "Coding advice"
+}, {
+    title: "Martin Fowler's Blog",
+    description: "Insights on software development and architecture.",
+    url: "https://martinfowler.com/",
+    category: "Coding advice"
+}, {
+    title: "Joel on Software",
+    description: "Classic blog about software development and management.",
+    url: "https://www.joelonsoftware.com/",
+    category: "Coding advice"
+}, {
+    title: "Coding Horror",
+    description: "Programming and human factors by Jeff Atwood.",
+    url: "https://blog.codinghorror.com/",
+    category: "Coding advice"
+}, {
+    title: "The Clean Code Blog",
+    description: "Bob Martin's blog about software craftsmanship.",
+    url: "https://blog.cleancoder.com/",
+    category: "Coding advice"
+}, {
+    title: "High Performance Web Sites",
+    description: "Essential knowledge for front-end engineers.",
+    url: "https://www.oreilly.com/library/view/high-performance-web/9780596529307/",
+    category: "Coding advice"
+}, {
+    title: "You Aren't Gonna Need It",
+    description: "Understanding the YAGNI principle in software development.",
+    url: "https://martinfowler.com/bliki/Yagni.html",
+    category: "Coding advice"
+}, {
+    title: "Go Code Review Comments",
+    description: "This page collects common comments made during reviews of Go code.",
+    url: "https://github.com/golang/go/wiki/CodeReviewComments",
+    category: "Coding style"
+}, {
+    title: "C++ Core Guidelines",
+    description: "A set of tried-and-true guidelines for modern C++.",
+    url: "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+    category: "Coding style"
+}, {
+    title: "Rust Style Guide",
+    description: "The official Rust style guide.",
+    url: "https://doc.rust-lang.org/nightly/style-guide/",
+    category: "Coding style"
+}, {
+    title: "Java Code Conventions",
+    description: "Oracle's Java Code Conventions.",
+    url: "https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html",
+    category: "Coding style"
+}, {
+    title: "Swift Style Guide",
+    description: "LinkedIn's Swift Style Guide.",
+    url: "https://github.com/linkedin/swift-style-guide",
+    category: "Coding style"
+}, {
+    title: "PHP-FIG Standards",
+    description: "PHP Framework Interop Group coding standards.",
+    url: "https://www.php-fig.org/psr/",
+    category: "Coding style"
+}, {
+    title: "Angular Style Guide",
+    description: "Official Angular style guide for teams.",
+    url: "https://angular.io/guide/styleguide",
+    category: "Coding style"
+}, {
+    title: "Vue.js Style Guide",
+    description: "Official style guide for Vue.js development.",
+    url: "https://vuejs.org/style-guide/",
+    category: "Coding style"
+}, {
+    title: "React/JSX Style Guide",
+    description: "Airbnb's style guide for React and JSX.",
+    url: "https://github.com/airbnb/javascript/tree/master/react",
+    category: "Coding style"
+}, {
+    title: "Prettier",
+    description: "Opinionated code formatter supporting many languages.",
+    url: "https://prettier.io/",
+    category: "Coding style"
+}, {
+    title: "Docker",
+    description: "Platform for developing, shipping, and running applications.",
+    url: "https://www.docker.com/",
+    category: "General tools"
+}, {
+    title: "Kubernetes",
+    description: "Container orchestration platform for automating deployment.",
+    url: "https://kubernetes.io/",
+    category: "General tools"
+}, {
+    title: "Jenkins",
+    description: "Open source automation server for continuous integration.",
+    url: "https://www.jenkins.io/",
+    category: "General tools"
+}, {
+    title: "Terraform",
+    description: "Infrastructure as Code tool for building, changing, and versioning infrastructure.",
+    url: "https://www.terraform.io/",
+    category: "General tools"
+}, {
+    title: "Ansible",
+    description: "Simple, agentless automation for application deployment and configuration management.",
+    url: "https://www.ansible.com/",
+    category: "General tools"
+}, {
+    title: "Jira",
+    description: "Issue and project tracking software for agile teams.",
+    url: "https://www.atlassian.com/software/jira",
+    category: "General tools"
+}, {
+    title: "Confluence",
+    description: "Team workspace for knowledge management and collaboration.",
+    url: "https://www.atlassian.com/software/confluence",
+    category: "General tools"
+}, {
+    title: "Slack",
+    description: "Business communication platform for teams.",
+    url: "https://slack.com/",
+    category: "General tools"
+}, {
+    title: "Discord",
+    description: "Voice, video and text communication platform for communities.",
+    url: "https://discord.com/",
+    category: "General tools"
+}, {
+    title: "Notion",
+    description: "All-in-one workspace for notes, tasks, wikis, and databases.",
+    url: "https://www.notion.so/",
+    category: "General tools"
+}, {
+    title: "Obsidian",
+    description: "A powerful knowledge base that works on top of local folder of plain text files.",
+    url: "https://obsidian.md/",
+    category: "General tools"
+}, {
+    title: "Wireshark",
+    description: "The world's foremost network protocol analyzer.",
+    url: "https://www.wireshark.org/",
+    category: "General tools"
+}, {
+    title: "Nmap",
+    description: "Network discovery and security auditing utility.",
+    url: "https://nmap.org/",
+    category: "General tools"
+}, {
+    title: "Burp Suite",
+    description: "Integrated platform for performing security testing of web applications.",
+    url: "https://portswigger.net/burp",
+    category: "General tools"
+}, {
+    title: "Metasploit",
+    description: "Penetration testing framework for finding, exploiting, and validating vulnerabilities.",
+    url: "https://www.metasploit.com/",
+    category: "General tools"
+}, {
+    title: "Bash Hackers Wiki",
+    description: "Hold documentation of any kind about GNU Bash.",
+    url: "https://wiki.bash-hackers.org/",
+    category: "Bash scripting"
+}, {
+    title: "ShellCheck",
+    description: "A static analysis tool for shell scripts.",
+    url: "https://www.shellcheck.net/",
+    category: "Bash scripting"
+}, {
+    title: "Explain Shell",
+    description: "Write down a command-line to see the help text that matches each argument.",
+    url: "https://explainshell.com/",
+    category: "Bash scripting"
+}, {
+    title: "Bash-Oneliner",
+    description: "Collection of handy Bash One-Liners for bioinformatics.",
+    url: "https://github.com/onceupon/Bash-Oneliner",
+    category: "Bash scripting"
+}, {
+    title: "The Linux Command Line",
+    description: "A complete introduction to the Linux command line.",
+    url: "http://linuxcommand.org/tlcl.php",
+    category: "Bash scripting"
+}, {
+    title: "Linux Academy",
+    description: "Hands-on learning for Linux system administration and scripting.",
+    url: "https://linuxacademy.com/",
+    category: "Bash scripting"
+}, {
+    title: "Bash Scripting Tutorial",
+    description: "Learn bash scripting step by step.",
+    url: "https://linuxconfig.org/bash-scripting-tutorial",
+    category: "Bash scripting"
+}, {
+    title: "Advanced Bash Scripting Guide",
+    description: "An in-depth exploration of bash scripting techniques.",
+    url: "https://tldp.org/LDP/abs/html/",
+    category: "Bash scripting"
+}, {
+    title: "Bash Guide for Beginners",
+    description: "Bash Guide for Beginners by Machtelt Garrels.",
+    url: "https://tldp.org/LDP/Bash-Beginners-Guide/html/",
+    category: "Bash scripting"
+}, {
+    title: "System Design Interview",
+    description: "An insider's guide to system design interviews.",
+    url: "https://www.educative.io/courses/grokking-the-system-design-interview",
+    category: "Interview preparation"
+}, {
+    title: "Cracking the Coding Interview",
+    description: "189 programming questions and solutions.",
+    url: "https://www.crackingthecodinginterview.com/",
+    category: "Interview preparation"
+}, {
+    title: "AlgoExpert",
+    description: "The ultimate resource to prepare for coding interviews.",
+    url: "https://www.algoexpert.io/",
+    category: "Interview preparation"
+}, {
+    title: "CodeSignal",
+    description: "Technical assessment and interview practice platform.",
+    url: "https://codesignal.com/",
+    category: "Interview preparation"
+}, {
+    title: "System Design Primer",
+    description: "Learn how to design large-scale systems.",
+    url: "https://github.com/donnemartin/system-design-primer",
+    category: "Interview preparation"
+}, {
+    title: "Tech Interview Handbook",
+    description: "Materials to help you rock your next coding interview.",
+    url: "https://techinterviewhandbook.org/",
+    category: "Interview preparation"
+}, {
+    title: "Blind 75",
+    description: "Must do List of top 75 questions for coding interview.",
+    url: "https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU",
+    category: "Interview preparation"
+}, {
+    title: "InterviewBit System Design",
+    description: "System design interview questions and answers.",
+    url: "https://www.interviewbit.com/system-design-interview-questions/",
+    category: "Interview preparation"
+}, {
+    title: "Grokking the System Design",
+    description: "Learn to design scalable systems like a pro.",
+    url: "https://www.educative.io/courses/grokking-the-system-design-interview",
+    category: "Interview preparation"
+}, {
+    title: "System Design Interview Questions",
+    description: "A curated list of system design interview questions.",
+    url: "https://github.com/checkcheckzz/system-design-interview",
+    category: "Interview preparation"
+}, {
+    title: "AlphaGo",
+    description: "Documentary about DeepMind's AlphaGo and its match with Lee Sedol.",
+    url: "https://www.alphagomovie.com/",
+    category: "Documentaries"
+}, {
+    title: "The Great Hack",
+    description: "Documentary exploring the data harvesting and analysis industry.",
+    url: "https://www.netflix.com/title/80117542",
+    category: "Documentaries"
+}, {
+    title: "Code Red",
+    description: "Documentary about cybersecurity threats and digital warfare.",
+    url: "https://www.imdb.com/title/tt2930374/",
+    category: "Documentaries"
+}, {
+    title: "Terms and Conditions May Apply",
+    description: "Documentary about privacy and the unread terms of service agreements.",
+    url: "https://www.imdb.com/title/tt2084953/",
+    category: "Documentaries"
+}, {
+    title: "TPB AFK: The Pirate Bay Away From Keyboard",
+    description: "Documentary about the founders of The Pirate Bay.",
+    url: "https://www.imdb.com/title/tt2608732/",
+    category: "Documentaries"
+}, {
+    title: "Citizenfour",
+    description: "Documentary about Edward Snowden and NSA surveillance.",
+    url: "https://www.imdb.com/title/tt4044364/",
+    category: "Documentaries"
+}, {
+    title: "We Are Legion: The Story of the Hacktivists",
+    description: "Documentary about the hacktivist group Anonymous.",
+    url: "https://www.imdb.com/title/tt2177843/",
+    category: "Documentaries"
+}, {
+    title: "Silicon Valley",
+    description: "Documentary about the birth of personal computing.",
+    url: "https://www.imdb.com/title/tt2547530/",
+    category: "Documentaries"
+}, {
+    title: "The Social Dilemma",
+    description: "Documentary-drama exploring the dangerous impact of social media.",
+    url: "https://www.netflix.com/title/81254224",
+    category: "Documentaries"
+}, {
+    title: "Downloaded",
+    description: "Documentary about Napster and the digital music revolution.",
+    url: "https://www.imdb.com/title/tt2033981/",
+    category: "Documentaries"
+}, {
+    title: "Udemy",
+    description: "Online learning platform with courses on various topics.",
+    url: "https://www.udemy.com/",
+    category: "MOOCs"
+}, {
+    title: "Pluralsight",
+    description: "Technology skills platform for businesses and individuals.",
+    url: "https://www.pluralsight.com/",
+    category: "MOOCs"
+}, {
+    title: "LinkedIn Learning",
+    description: "Online learning platform with business, technology, and creative skills.",
+    url: "https://www.linkedin.com/learning/",
+    category: "MOOCs"
+}, {
+    title: "FutureLearn",
+    description: "Online courses and degrees from leading universities.",
+    url: "https://www.futurelearn.com/",
+    category: "MOOCs"
+}, {
+    title: "Skillshare",
+    description: "Online learning community for creativity and business.",
+    url: "https://www.skillshare.com/",
+    category: "MOOCs"
+}, {
+    title: "MasterClass",
+    description: "Online classes taught by world-renowned experts.",
+    url: "https://www.masterclass.com/",
+    category: "MOOCs"
+}, {
+    title: "Codecademy Pro",
+    description: "Interactive coding lessons with projects and quizzes.",
+    url: "https://www.codecademy.com/pro",
+    category: "MOOCs"
+}, {
+    title: "CS50x",
+    description: "Harvard's introduction to computer science course on edX.",
+    url: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+    category: "MOOCs"
+}, {
+    title: "CS50 Web Programming",
+    description: "Harvard's course on web programming with Python and JavaScript.",
+    url: "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript",
+    category: "MOOCs"
+}, {
+    title: "Google Cloud Training",
+    description: "Training courses and certifications for Google Cloud Platform.",
+    url: "https://cloud.google.com/training",
+    category: "MOOCs"
+}, {
+    title: "AWS Training",
+    description: "Training and certification for Amazon Web Services.",
+    url: "https://aws.amazon.com/training/",
+    category: "MOOCs"
+}, {
+    title: "Microsoft Learn",
+    description: "Free learning platform for Microsoft technologies.",
+    url: "https://docs.microsoft.com/en-us/learn/",
+    category: "MOOCs"
+}, {
+    title: "MongoDB University",
+    description: "Free online courses for MongoDB.",
+    url: "https://university.mongodb.com/",
+    category: "MOOCs"
+}, {
+    title: "Redis University",
+    description: "Free courses for learning Redis database.",
+    url: "https://university.redis.com/",
+    category: "MOOCs"
+}, {
+    title: "Salesforce Trailhead",
+    description: "Free learning platform for Salesforce skills.",
+    url: "https://trailhead.salesforce.com/",
+    category: "MOOCs"
+}, {
+    title: "TypeScript Handbook",
+    description: "Official TypeScript documentation and reference.",
+    url: "https://www.typescriptlang.org/docs/",
+    category: "Programming languages"
+}, {
+    title: "MDN JavaScript",
+    description: "Comprehensive JavaScript documentation and tutorials.",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    category: "Programming languages"
+}, {
+    title: "C# Documentation",
+    description: "Official Microsoft documentation for C# programming.",
+    url: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    category: "Programming languages"
+}, {
+    title: "Scala Documentation",
+    description: "Official documentation for the Scala programming language.",
+    url: "https://docs.scala-lang.org/",
+    category: "Programming languages"
+}, {
+    title: "F# Documentation",
+    description: "Official documentation for F# functional programming language.",
+    url: "https://docs.microsoft.com/en-us/dotnet/fsharp/",
+    category: "Programming languages"
+}, {
+    title: "Clojure",
+    description: "Dynamic, functional programming language for the JVM.",
+    url: "https://clojure.org/",
+    category: "Programming languages"
+}, {
+    title: "Dart Language",
+    description: "Client-optimized programming language for fast apps on any platform.",
+    url: "https://dart.dev/",
+    category: "Programming languages"
+}, {
+    title: "Julia Language",
+    description: "High-level, high-performance programming language for technical computing.",
+    url: "https://julialang.org/",
+    category: "Programming languages"
+}, {
+    title: "Erlang",
+    description: "Programming language used to build massively scalable soft real-time systems.",
+    url: "https://www.erlang.org/",
+    category: "Programming languages"
+}, {
+    title: "OCaml",
+    description: "Industrial strength programming language supporting functional, imperative and object-oriented styles.",
+    url: "https://ocaml.org/",
+    category: "Programming languages"
+}, {
+    title: "Nim Language",
+    description: "Expressive, elegant, statically typed systems programming language.",
+    url: "https://nim-lang.org/",
+    category: "Programming languages"
+}, {
+    title: "Zig Language",
+    description: "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
+    url: "https://ziglang.org/",
+    category: "Programming languages"
+}, {
+    title: "Crystal Language",
+    description: "Fast as C, slick as Ruby programming language.",
+    url: "https://crystal-lang.org/",
+    category: "Programming languages"
+}, {
+    title: "V Language",
+    description: "Simple, fast, safe, compiled programming language for developing maintainable software.",
+    url: "https://vlang.io/",
+    category: "Programming languages"
+}, {
+    title: "PyTorch",
+    description: "Open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+    url: "https://pytorch.org/",
+    category: "Learn AI"
+}, {
+    title: "scikit-learn",
+    description: "Machine learning library for Python with simple and efficient tools for predictive data analysis.",
+    url: "https://scikit-learn.org/",
+    category: "Learn AI"
+}, {
+    title: "Keras",
+    description: "Deep learning API written in Python, running on top of TensorFlow.",
+    url: "https://keras.io/",
+    category: "Learn AI"
+}, {
+    title: "Hugging Face",
+    description: "Platform for machine learning models, datasets, and applications.",
+    url: "https://huggingface.co/",
+    category: "Learn AI"
+}, {
+    title: "Papers With Code",
+    description: "Machine learning papers with code implementations.",
+    url: "https://paperswithcode.com/",
+    category: "Learn AI"
+}, {
+    title: "Towards Data Science",
+    description: "Medium publication sharing concepts, ideas, and codes related to data science.",
+    url: "https://towardsdatascience.com/",
+    category: "Learn AI"
+}, {
+    title: "Distill",
+    description: "Machine learning research with clear explanations and interactive visualizations.",
+    url: "https://distill.pub/",
+    category: "Learn AI"
+}, {
+    title: "AI Research",
+    description: "Latest artificial intelligence research papers and findings.",
+    url: "https://ai.facebook.com/research/",
+    category: "Learn AI"
+}, {
+    title: "Google AI",
+    description: "Google's AI research and tools.",
+    url: "https://ai.google/",
+    category: "Learn AI"
+}, {
+    title: "OpenAI Research",
+    description: "Research papers and publications from OpenAI.",
+    url: "https://openai.com/research/",
+    category: "Learn AI"
+}, {
+    title: "MIT AI Lab",
+    description: "MIT's Computer Science and Artificial Intelligence Laboratory.",
+    url: "https://www.csail.mit.edu/",
+    category: "Learn AI"
+}, {
+    title: "Stanford AI Lab",
+    description: "Stanford Artificial Intelligence Laboratory research.",
+    url: "https://ai.stanford.edu/",
+    category: "Learn AI"
+}, {
+    title: "arXiv AI",
+    description: "Artificial Intelligence section of arXiv preprint repository.",
+    url: "https://arxiv.org/list/cs.AI/recent",
+    category: "Learn AI"
+}, {
+    title: "Machine Learning Mastery",
+    description: "Practical machine learning tutorials and guides.",
+    url: "https://machinelearningmastery.com/",
+    category: "Learn AI"
+}, {
+    title: "JSTOR",
+    description: "Digital library for academic journals, books, and primary sources.",
+    url: "https://www.jstor.org/",
+    category: "Research & Writing"
+}, {
+    title: "arXiv",
+    description: "Open access repository of electronic preprints in various fields.",
+    url: "https://arxiv.org/",
+    category: "Research & Writing"
+}, {
+    title: "PLOS ONE",
+    description: "Inclusive journal community working together to advance science.",
+    url: "https://journals.plos.org/plosone/",
+    category: "Research & Writing"
+}, {
+    title: "IEEE Xplore",
+    description: "Digital library providing access to the world's highest quality technical literature.",
+    url: "https://ieeexplore.ieee.org/",
+    category: "Research & Writing"
+}, {
+    title: "ACM Digital Library",
+    description: "Research literature from the world of computing.",
+    url: "https://dl.acm.org/",
+    category: "Research & Writing"
+}, {
+    title: "DBLP",
+    description: "Computer science bibliography database.",
+    url: "https://dblp.org/",
+    category: "Research & Writing"
+}, {
+    title: "Semantic Scholar",
+    description: "AI-powered research tool for scientific literature.",
+    url: "https://www.semanticscholar.org/",
+    category: "Research & Writing"
+}, {
+    title: "PubMed",
+    description: "Database of biomedical and life science literature.",
+    url: "https://pubmed.ncbi.nlm.nih.gov/",
+    category: "Research & Writing"
+}, {
+    title: "Grammarly",
+    description: "Writing assistant for grammar checking and proofreading.",
+    url: "https://www.grammarly.com/",
+    category: "Research & Writing"
+}, {
+    title: "LaTeX",
+    description: "Document preparation system for high-quality typesetting.",
+    url: "https://www.latex-project.org/",
+    category: "Research & Writing"
+}, {
+    title: "Overleaf",
+    description: "Collaborative cloud-based LaTeX editor.",
+    url: "https://www.overleaf.com/",
+    category: "Research & Writing"
+}, {
+    title: "The Ultimate List of Developer Resources",
+    description: "Comprehensive collection of resources for developers.",
+    url: "https://github.com/charlax/professional-programming",
+    category: "Everything in one place"
+}, {
+    title: "Free Programming Books",
+    description: "Freely available programming books in various languages.",
+    url: "https://github.com/EbookFoundation/free-programming-books",
+    category: "Everything in one place"
+}, {
+    title: "Awesome Lists",
+    description: "Curated lists of awesome frameworks, libraries, software and resources.",
+    url: "https://github.com/sindresorhus/awesome",
+    category: "Everything in one place"
+}, {
+    title: "Rico's cheatsheets",
+    description: "Cheatsheets for developers covering various technologies.",
+    url: "https://devhints.io/",
+    category: "Everything in one place"
+}, {
+    title: "Developer Roadmaps",
+    description: "Step by step guides and paths to learn different tools or technologies.",
+    url: "https://roadmap.sh/",
+    category: "Everything in one place"
+}, {
+    title: "30 seconds of code",
+    description: "Short code snippets for all your development needs.",
+    url: "https://www.30secondsofcode.org/",
+    category: "Everything in one place"
+}, {
+    title: "Can I use",
+    description: "Browser support tables for modern web technologies.",
+    url: "https://caniuse.com/",
+    category: "Everything in one place"
+}, {
+    title: "Regex101",
+    description: "Online regex tester and debugger.",
+    url: "https://regex101.com/",
+    category: "Everything in one place"
+}, {
+    title: "JSON Formatter & Validator",
+    description: "The JSON Formatter & Validator beautifies and debugs JSON data.",
+    url: "https://jsonformatter.curiousconcept.com/",
+    category: "Everything in one place"
+}, {
+    title: "Public APIs",
+    description: "Collective list of free APIs for use in software and web development.",
+    url: "https://github.com/public-apis/public-apis",
+    category: "Everything in one place"
+}, {
+    title: "Programming Talks",
+    description: "Awesome & Interesting talks about programming.",
+    url: "https://github.com/hellerve/programming-talks",
+    category: "YouTube channels"
+}, {
+    title: "Tech Lead",
+    description: "Software engineering career and leadership advice.",
+    url: "https://www.youtube.com/c/TechLead",
+    category: "YouTube channels"
+}, {
+    title: "Fireship",
+    description: "High-intensity code tutorials to build apps from scratch in minutes.",
+    url: "https://www.youtube.com/c/Fireship",
+    category: "YouTube channels"
+}, {
+    title: "3Blue1Brown",
+    description: "Mathematical concepts explained visually.",
+    url: "https://www.youtube.com/c/3blue1brown",
+    category: "YouTube channels"
+}, {
+    title: "CS Dojo",
+    description: "Programming tutorials and computer science concepts.",
+    url: "https://www.youtube.com/c/CSDojo",
+    category: "YouTube channels"
+}, {
+    title: "Ben Awad",
+    description: "Web development tutorials and coding vlogs.",
+    url: "https://www.youtube.com/c/BenAwad97",
+    category: "YouTube channels"
+}, {
+    title: "DevTips",
+    description: "Web development and design tutorials.",
+    url: "https://www.youtube.com/c/DevTipsForDesigners",
+    category: "YouTube channels"
+}, {
+    title: "The Net Ninja",
+    description: "Web development tutorials covering modern technologies.",
+    url: "https://www.youtube.com/c/TheNetNinja",
+    category: "YouTube channels"
+}, {
+    title: "Web Dev Simplified",
+    description: "Web development tutorials made simple and to the point.",
+    url: "https://www.youtube.com/c/WebDevSimplified",
+    category: "YouTube channels"
+}, {
+    title: "Kevin Powell",
+    description: "CSS tutorials and tips for making responsive websites.",
+    url: "https://www.youtube.com/c/KevinPowell",
+    category: "YouTube channels"
+}, {
+    title: "Two Minute Papers",
+    description: "AI and machine learning research explained in short videos.",
+    url: "https://www.youtube.com/c/K%C3%A1rolyZsolnai",
+    category: "YouTube channels"
+}, {
+    title: "sentdex",
+    description: "Python programming tutorials with practical applications.",
+    url: "https://www.youtube.com/c/sentdex",
+    category: "YouTube channels"
+}, {
+    title: "Corey Schafer",
+    description: "Programming tutorials primarily focused on Python.",
+    url: "https://www.youtube.com/c/Coreyms",
+    category: "YouTube channels"
+}, {
+    title: "Joma Tech",
+    description: "Software engineering career advice and tech industry insights.",
+    url: "https://www.youtube.com/c/JomaOppa",
+    category: "YouTube channels"
+}, {
+    title: "Syntax",
+    description: "A Tasty Treats Podcast for Web Developers.",
+    url: "https://syntax.fm/",
+    category: "Podcasts"
+}, {
+    title: "The Changelog",
+    description: "News and podcasts for developers.",
+    url: "https://changelog.com/",
+    category: "Podcasts"
+}, {
+    title: "Talk Python To Me",
+    description: "A podcast on Python and related technologies.",
+    url: "https://talkpython.fm/",
+    category: "Podcasts"
+}, {
+    title: "Programming Throwdown",
+    description: "Discusses programming languages, topics, and the latest trends.",
+    url: "https://www.programmingthrowdown.com/",
+    category: "Podcasts"
+}, {
+    title: "CodePen Radio",
+    description: "A podcast all about what it's like running a small web software business.",
+    url: "https://blog.codepen.io/radio/",
+    category: "Podcasts"
+}, {
+    title: "The Stack Overflow Podcast",
+    description: "Weekly podcast about developers and the Stack Overflow community.",
+    url: "https://stackoverflow.blog/podcast/",
+    category: "Podcasts"
+}, {
+    title: "Command Line Heroes",
+    description: "Stories about the people who transform technology from the command line up.",
+    url: "https://www.redhat.com/en/command-line-heroes",
+    category: "Podcasts"
+}, {
+    title: "React Podcast",
+    description: "Conversations about React with your favorite developers.",
+    url: "https://reactpodcast.simplecast.com/",
+    category: "Podcasts"
+}, {
+    title: "JS Party",
+    description: "A community celebration of JavaScript and the web.",
+    url: "https://changelog.com/jsparty",
+    category: "Podcasts"
+}, {
+    title: "Shop Talk Show",
+    description: "A podcast about front end web design and development.",
+    url: "https://shoptalkshow.com/",
+    category: "Podcasts"
+}, {
+    title: "Security Now",
+    description: "Your weekly source for security news & insight.",
+    url: "https://twit.tv/shows/security-now",
+    category: "Podcasts"
+}, {
+    title: "Darknet Diaries",
+    description: "True stories from the dark side of the Internet.",
+    url: "https://darknetdiaries.com/",
+    category: "Podcasts"
+}, {
+    title: "Malicious Life",
+    description: "Tales of cybersecurity's most notorious characters.",
+    url: "https://malicious.life/",
+    category: "Podcasts"
 }];

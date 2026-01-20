@@ -16,7 +16,7 @@ const Header = ({ onMenuClick }) => {
           </button>
           
           <div className="flex items-center gap-3 select-none cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src={logo} alt="EESVO Logo" className="h-10 w-auto rounded-lg shadow-sm" />
+            <img src={logo} alt="EESVO Logo" className="h-12 w-auto rounded-lg shadow-sm" />
             <div className="flex flex-col">
               <span className="font-extrabold text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 tracking-tight hidden sm:block leading-none">
                 Every Engineer Should Visit Once
