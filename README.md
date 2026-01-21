@@ -1,17 +1,29 @@
-# 🚀 **Every Engineer Should Visit Once (EESVO)**
+# **Every Engineer Should Visit Once (EESVO)**
+
 
 <div align="center">
+  <img src="assets/logo.jpeg" width="200" alt="EESVO Logo" />
 
-![EESVO Logo](assets/logo.jpeg)
+  <br/>
 
-**The Ultimate Resource Hub for Engineers, Developers & Tech Enthusiasts**
+  <b>The Ultimate Resource Hub for Engineers, Developers & Tech Enthusiasts</b>
+  <br/><br/>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge&logo=vercel)](https://arya182-ui.github.io/EESVO/)
-[![GitHub Stars](https://img.shields.io/github/stars/Arya182-ui/EESVO?style=for-the-badge&logo=github)](https://github.com/Arya182-ui/EESVO/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/Arya182-ui/EESVO?style=for-the-badge&logo=github)](https://github.com/Arya182-ui/EESVO/network)
-[![License](https://img.shields.io/github/license/Arya182-ui/EESVO?style=for-the-badge)](LICENSE)
+  <a href="https://arya182-ui.github.io/EESVO/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge&logo=vercel" />
+  </a>
+  <a href="https://github.com/Arya182-ui/EESVO/stargazers">
+    <img src="https://img.shields.io/github/stars/Arya182-ui/EESVO?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/Arya182-ui/EESVO/network">
+    <img src="https://img.shields.io/github/forks/Arya182-ui/EESVO?style=for-the-badge&logo=github" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/Arya182-ui/EESVO?style=for-the-badge" />
+  </a>
 
 </div>
+
 
 ---
 
