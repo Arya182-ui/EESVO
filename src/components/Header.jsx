@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, Github } from 'lucide-react';
 import logo from '../../assets/logo.jpeg';
 
 const Header = ({ onMenuClick }) => {
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const totalScroll = document.documentElement.scrollTop;
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      if (windowHeight > 0) {
+        setScrollProgress(totalScroll / windowHeight);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-40 h-16 transition-all duration-300">
+    <header className="bg-white/90 backdrop-blur-xl border-b border-gray-200/80 sticky top-0 z-40 h-16 transition-all duration-300 supports-[backdrop-filter]:bg-white/60">
       <div className="flex items-center justify-between px-4 h-full container mx-auto max-w-7xl">
         <div className="flex items-center gap-4">
           <button 
@@ -33,13 +48,16 @@ const Header = ({ onMenuClick }) => {
             href="https://github.com/arya182-ui/EESVO"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:border-gray-300 transition-all shadow-sm hover:shadow group"
+            className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gray-900 border border-transparent rounded-full hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 group"
           >
-            <Github size={18} className="group-hover:text-black transition-colors" />
+            <Github size={18} className="text-white/90 group-hover:text-white transition-colors" />
             <span className="hidden sm:inline">Star on GitHub</span>
           </a>
         </div>
       </div>
+      
+      {/* Scroll Progress Bar */}
+      <div className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 transition-all duration-150 z-50" style={{ width: `${scrollProgress * 100}%` }} />
     </header>
   );
 };
