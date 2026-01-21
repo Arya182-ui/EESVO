@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { resources } from './data/resources';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Search, X, ArrowUp } from 'lucide-react';
+import { ExternalLink, Search, X, ArrowUp, Flag } from 'lucide-react';
 
 function App() {
   const [activeCategory, setActiveCategory] = useState('Everything in one place');
@@ -130,6 +130,16 @@ function App() {
                             >
                               {resource.category}
                             </span>
+                            <a
+                              href={`https://github.com/arya182-ui/EESVO/issues/new?labels=bug&title=Broken Resource: ${encodeURIComponent(resource.title)}&body=The resource "${encodeURIComponent(resource.title)}" seems to be broken.`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                              title="Report Broken Resource"
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              <Flag size={16} />
+                            </a>
                           </div>
 
                           <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
