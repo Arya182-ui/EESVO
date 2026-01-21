@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, Github } from 'lucide-react';
+import { Menu, Github, Flag } from 'lucide-react';
 import logo from '../../assets/logo.jpeg';
 
 const Header = ({ onMenuClick }) => {
@@ -44,6 +44,16 @@ const Header = ({ onMenuClick }) => {
         </div>
 
         <div className="flex items-center gap-3">
+          <a
+            href="https://github.com/arya182-ui/EESVO/issues/new?labels=bug&title=Broken+Resource+Report"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-500 hover:text-red-600 hover:bg-red-50 rounded-full transition-all duration-200 group"
+            title="Report Broken Resource"
+          >
+            <Flag size={18} className="group-hover:fill-current" />
+            <span className="hidden md:inline">Report Issue</span>
+          </a>
           <a
             href="https://github.com/arya182-ui/EESVO"
             target="_blank"

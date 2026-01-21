@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Heart, Twitter } from 'lucide-react';
+import { Github, Heart, Twitter, Flag } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -23,6 +23,18 @@ const Footer = () => {
             aria-label="GitHub"
           >
             <Github size={20} />
+          </a>
+
+          <div className="w-px h-4 bg-gray-300 hidden sm:block"></div>
+
+          <a 
+            href="https://github.com/arya182-ui/EESVO/issues/new?labels=bug&title=Broken+Resource+Report" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors group"
+          >
+            <Flag size={18} className="group-hover:fill-current" />
+            <span className="text-sm font-medium hidden sm:block">Report Issue</span>
           </a>
         </div>
 
